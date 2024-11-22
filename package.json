@@ -1,6 +1,22 @@
 {
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and PostgreSQL, to be able to view and manage the departments, roles, and employees in my company so I can organize and plan my business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js" 
+  },
+  "author": "William Sheere IV",
+  "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.4",
     "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/pg": "^8.11.10",
+    "typescript": "^5.7.2"
   }
 }
