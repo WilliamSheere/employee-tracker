@@ -15,7 +15,7 @@ inquirer
         if (answers.Menu == "view all departments") {
             console.log("View all deparntments selected, run function to continue")
         }
-        
+
         if (answers.Menu == "view all roles") {
 					console.log(
 						"View all roles selected, run function to continue");}
