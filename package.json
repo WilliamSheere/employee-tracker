@@ -2,6 +2,7 @@
   "name": "employee-tracker",
   "version": "1.0.0",
   "description": "A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and PostgreSQL, to be able to view and manage the departments, roles, and employees in my company so I can organize and plan my business",
+ "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
