@@ -1,3 +1,9 @@
+DROP DATABASE IF EXISTS tracker;
+
+CREATE DATABASE tracker;
+
+\c tracker;
+
 -- Create department table CREATE a table called `department`:
     -- Add a column `id` as the PRIMARY KEY (auto-incrementing unique ID for each department).
     -- Add a column `name` for department names:
@@ -51,3 +57,8 @@ CREATE TABLE employee (
     FOREIGN KEY (role_id) REFERENCES role(id),
     FOREIGN KEY (manager_id) REFERENCES employee(id) ON DELETE SET NULL
 );
+
+
+
+-- QUERY for all Records in a TABLE
+SELECT (id, name) FROM department;

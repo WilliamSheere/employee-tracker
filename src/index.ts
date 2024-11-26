@@ -1,4 +1,9 @@
 import inquirer from "inquirer";
+import { pool } from './db/connection.js';
+
+//await connection();
+await pool.connect()
+
 function startApp (){
 inquirer
 	.prompt([
@@ -13,7 +18,8 @@ inquirer
 	.then((answers) => {
 		console.log(answers.Menu)
         if (answers.Menu == "view all departments") {
-            console.log("View all deparntments selected, run function to continue")
+            console.log("View all deparntments selected, run function to continue");
+            getDepartments();
         }
 
         if (answers.Menu == "view all roles") {
@@ -43,4 +49,15 @@ inquirer
 				}                             
 	});
 }
+
+
+
+const getDepartments = async () => {
+    const results = await pool.query('SELECT (id, name) FROM department;');
+    let data = results.rows.map(item => item.row )
+    console.log("Data: ", data);
+    console.table(data);
+}
+
+
 startApp()
