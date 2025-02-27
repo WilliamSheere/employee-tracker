@@ -1,4 +1,33 @@
 # employee-tracker
-Project Overview: Employee Database Management System
+Employee Management System
 
-This project is a command-line application developed from the ground up to streamline the management of a company's employee database. Built using Node.js, Inquirer, and PostgreSQL, this application provides a robust solution for viewing and managing organizational data, including departments, roles, and employees. By offering an intuitive and efficient way to handle employee data, it helps businesses stay organized, plan effectively, and make informed decisions.
+Description:
+As a business owner, this command-line application allows you to efficiently view and manage the departments, roles, and employees within your company. By utilizing this tool, you can streamline organization and planning, ensuring smooth operations and workforce management.
+
+Features:
+View All Departments: Displays a formatted table with department names and department IDs.
+View All Roles: Provides job titles, role IDs, department associations, and salary details.
+View All Employees: Shows a structured table with employee IDs, names, job titles, departments, salaries, and reporting managers.
+Add a Department: Enables the addition of new departments via user input.
+Add a Role: Allows for the creation of new roles with specified job titles, salaries, and department assignments.
+Add an Employee: Facilitates the entry of new employees, including their names, roles, and managers.
+Update an Employee Role: Enables modification of an employee's role within the database.
+
+Usage:
+Start the application.
+Follow the prompts to select an action.
+Enter the required information when prompted.
+View, add, or update data as needed.
+
+Technologies Used:
+Node.js: Backend runtime environment
+Inquirer.js: Command-line user interface
+MySQL: Database management system
+
+License:
+This project is licensed under the MIT License.
+
+Contact:
+GitHub Repository: https://github.com/WilliamSheere/employee-tracker
+Email: Sheerebilly@yahoo.com
+
