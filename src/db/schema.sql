@@ -61,4 +61,5 @@ CREATE TABLE employee (
 
 
 -- QUERY for all Records in a TABLE
-SELECT (id, name) FROM department;
+
+-- SELECT (id, name) FROM department;
