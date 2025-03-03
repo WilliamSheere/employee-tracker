@@ -30,4 +30,4 @@ This project is licensed under the MIT License.
 Contact:
 GitHub Repository: https://github.com/WilliamSheere/employee-tracker
 Email: Sheerebilly@yahoo.com
-
+Walkthrough Videos: https://app.screencastify.com/v2/manage/videos/nZmoK0VzEJuisews1CGo or https://drive.google.com/file/d/1kJSc-6o5VqLlPbXsBERGN0njnhUiuDnp/view
